@@ -1,0 +1,21 @@
+// Palette di colori
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$accent-color: #e74c3c;
+$text-color: #333;
+$background-color: #f5f5f5;
+
+// Tipografia
+$font-family: 'Arial', sans-serif;
+
+// Spaziature
+$spacing-small: 8px;
+$spacing-medium: 16px;
+$spacing-large: 32px;
+
+// Breakpoint responsive
+$breakpoints: (
+  small: 576px,
+  medium: 768px,
+  large: 1024px
+);

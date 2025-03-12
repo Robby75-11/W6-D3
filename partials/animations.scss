@@ -1,0 +1,30 @@
+// Effetto fade-in
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  // Effetto pulsazione su bottoni
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  // Applicare animazioni con mixin
+  @mixin fade-in($duration: 0.5s) {
+    animation: fadeIn $duration ease-in-out;
+  }
+  

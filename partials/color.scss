@@ -1,0 +1,26 @@
+// Palette di colori principali
+$primary-color: #3498db;   // Blu primario
+$secondary-color: #2ecc71; // Verde secondario
+$accent-color: #e74c3c;    // Rosso accento
+
+// Colori neutri
+$black: #222;
+$white: #fff;
+$gray-dark: #555;
+$gray-light: #ccc;
+$background-light: #f8f9fa;
+
+// Gradienti
+$gradient-primary: linear-gradient(45deg, #3498db, #2c3e50);
+$gradient-secondary: linear-gradient(45deg, #2ecc71, #27ae60);
+$gradient-accent: linear-gradient(45deg, #e74c3c, #c0392b);
+
+// Stati e azioni
+$success-color: #28a745;   // Verde successo
+$warning-color: #f39c12;   // Arancione avviso
+$error-color: #e74c3c;     // Rosso errore
+$info-color: #17a2b8;      // Blu informativo
+
+// Ombre personalizzate
+$box-shadow-light: 0 2px 8px rgba(0, 0, 0, 0.1);
+$box-shadow-dark: 0 4px 16px rgba(0, 0, 0, 0.2);
